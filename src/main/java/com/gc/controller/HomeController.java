@@ -14,10 +14,10 @@ public class HomeController {
 
     @RequestMapping("/")
 
-    public ModelAndView helloWorld()
-    {
+    public ModelAndView helloWorld() {
+        String name = "Eric";
         return new
-                ModelAndView("index","message","Hello World");
+                ModelAndView("index","developerName",name);
 
     }
 

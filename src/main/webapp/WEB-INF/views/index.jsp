@@ -13,7 +13,7 @@
 <body>
 ${message}
 <p>
-    Welcome to GC Coffee Shop <a href = "/registration">Register</a>
+    Welcome to GC Coffee Shop! Create your profile with us today! <a href = "/registration">Register</a>
 </p>
 </body>
 </html>
